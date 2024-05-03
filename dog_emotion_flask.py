@@ -32,7 +32,7 @@ def allowed_file(filename):
 
 
 #学習済みモデルをロード
-model = load_model('./dog_emotion_VGG16model_batch_horizontal_fix19_epochs30.h5', compile=False)
+model = load_model('./revise_dog_emotion_VGG16model_batch_horizontal_fix19_epochs30.h5', compile=False)
 
 
 #トップページにアクセスしたときに実行される関数を定義
